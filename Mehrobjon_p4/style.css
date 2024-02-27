@@ -1,0 +1,476 @@
+:root{
+    --font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    margin: 0;padding: 0;
+}
+.box1{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+.contentBox1{
+    max-width: 1360px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    gap: 30px;
+}
+.comLeftBox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 630px;
+    min-height: 438px;
+    height: 100%;
+}
+.comLeftBox1 > h1{
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.comLeftBox1 > p{
+    font-family: var(--font-family);
+    font-size: 35px;
+    color: #818080;
+    font-weight: 200;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.comLeftBox1 > button{
+    width: 176px;
+    height: 71px;
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #E84949;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 5px 0px #00000033;
+
+    box-shadow: 0px 3px 1px 0px #0000001F;
+    
+    box-shadow: 0px 2px 2px 0px #00000024;
+    
+}
+.box2{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+.contentBox2{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.Zag{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #F37A7A;
+}
+.comLeftBox2{
+    width: 688px;
+    height: 471px;
+}
+.comLeftBox2 > h2{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #818080;
+}
+.allSkills{
+    margin-left:56px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 60%;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+}
+.allSkills > img{
+    width: 120px;
+}
+.box3{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.ZagBox3{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #F37A7A;
+}
+.contentBox3{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+.contentBox3 > h1{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.comBox3{
+    max-width: 1260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+}
+.box4{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+.ZagBox4 > h1{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F37A7A;
+}
+.contentBox4{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 105px;
+}
+.comBox4{
+    width: 415px ;
+    height: 418px;
+   
+}
+.comBox4{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 50px ;
+}
+.comBox4 > input{
+    outline: none;
+    padding: 30px 50px 30px  ;
+    border: none;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px 0px #00000059;
+}
+.comBox4 > input::placeholder{
+    text-decoration: underline;
+}
+.comBox4 > textarea{
+    outline: none;    padding: 30px 50px 30px  ;
+    border: none;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px 0px #00000059;
+}
+.comBox4 > button{
+    width: 181px;
+    height: 66px;
+    border: none;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #6860E2;
+    align-self: center;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    min-height: 444px;
+    height: 100%;
+    background: url('./src/wave.png') center no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentF{
+    height: auto;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ConLeft{
+    width: 455px;
+    height: 150px;
+}
+.ConLeft > h1{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.comConLeft{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.ConRight > h1{
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.ConRight > a > label{
+    color: #0ACBBF;
+    cursor: pointer;
+}
+.ConRight > a{
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+@media screen and (max-width: 1020px){
+    .box2{
+        margin-top: 100px;
+    }
+    .box3{
+        margin-top: 100px;
+    }
+    .box4{
+        margin-top: 100px;
+    }
+    .comLeftBox1 > h1{
+        text-align: center;
+    }
+    .comLeftBox1 > p{
+        text-align: center;
+    }
+    .comLeftBox1 > button{
+        margin: 0 auto;
+        border-radius: 4px;
+    }
+    .imgBox1{
+        width: 457px;
+        height: 500px;
+    }
+    .contentBox2 {
+        min-height: 80vh;
+        height: 100%;
+    }
+    .comLeftBox2 > h2{
+        text-align: center;
+    }
+    .allSkills{
+        margin: 0 auto;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .imgBox2{
+        width: 457px;
+        height: 400px;
+    }
+}
+
+
+/* @media screen and (max-width: 660px) */
+
+@media screen and (max-width: 660px){
+    .box2{
+        margin-top: 100px;
+    }
+    .box3{
+        margin-top: 100px;
+    }
+    .box4{
+        margin-top: 100px;
+    }
+    .imgBox1{
+        width: 90%;
+        height: 450px;
+    }
+    .comLeftBox1 > h1{
+        text-align: center;
+        font-size: 30px ;
+    }
+    .comLeftBox1 > p{
+        text-align: center;
+        font-size: 20px ;
+        line-height: 40px;
+    }
+    .comLeftBox1 > button{
+        margin: 0 auto;
+        border-radius: 4px;
+        font-size: 25px;
+    }
+    .Zag > h1{
+        font-size: 30px;
+    }
+    .allSkills > img{
+        width: 100px;
+    }
+    .imgBox2{
+        width: 90%;
+        height: 350px;
+    }
+    .comLeftBox2 > h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ZagBox3 > h1{
+        font-size: 30px;
+    }
+    .ZagBox3 > h1 > svg{
+        width: 36px;
+        height: 32px;
+    }
+    .contentBox3 > h1{
+        font-size: 20px;
+        font-weight: 100px;
+    }
+    .comBox3 > img{
+        width: 274px;
+        height: 302px;
+    }
+    .ZagBox4 > h1{
+        font-size: 30px;
+    }
+    .contentBox4{
+        min-height: 40vh;
+        height: 100%;
+    }
+    .contentBox4 > img{
+        width: 250px;
+        height: 186px;
+    }
+    .comBox4{
+        width: 259px;
+        height: 234px;
+    }
+    .comBox4 > input{
+        padding: 2px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    .comBox4 > input::placeholder{
+        font-size: 20px;
+    }
+    .comBox4 > textarea{
+        padding: 2px 20px 120px;
+        height: 120px;
+        font-size: 20px;
+        box-shadow: 1px 4px 4px 0px #00000059;
+
+    }
+    .comBox4 > textarea::placeholder{
+        font-size: 20px;
+    }
+    .comBox4 > button{
+        transform: scale(0.6);
+    }
+    .ConLeft > h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .ConRight > h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .ConRight > a{
+        font-size: 25px;
+    }
+    .comConLeft{
+        justify-content: space-around;
+    }
+    .comConLeft > svg{
+        width: 35px;
+        height: 35px;
+    }
+    .ConRight > a > svg{
+        width: 35px;
+        height: 35px;
+    }
+    .contentF{
+        justify-content: center;
+    }
+}
+
